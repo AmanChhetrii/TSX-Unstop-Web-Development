@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+
+   background-image: linear-gradient(rgb(0, 0, 0), rgb(200, 205, 200));
+}
+
+.box{
+     margin: 10vh;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline ;
+}
+
+p{
+    margin-top: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: bisque;
+}
+
+button{
+    border-radius: 12px;
+    border-color: blanchedalmond;
+    margin-left: 45vw;
+    padding: 15px 40px;
+    background-color: blanchedalmond;
+    border: black;
+    color: black;
+}
