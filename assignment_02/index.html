@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML5 Layout</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Header Styling */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            display: block;
+            margin-bottom: 15px;
+        }
+        
+        /* Navigation Styling */
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        
+        nav ul li a:hover {
+            background-color: #1abc9c;
+            border-radius: 3px;
+        }
+        
+        /* Main Content Styling */
+        main {
+            display: block;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        article {
+            display: block;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        article h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        article p {
+            margin-bottom: 15px;
+        }
+        
+        /* Footer Styling */
+        footer {
+            display: block;
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        
+        /* Aside Styling */
+        aside {
+            display: block;
+            background-color: #ecf0f1;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 4px solid #3498db;
+        }
+        
+        /* Section Styling */
+        section {
+            display: block;
+            margin: 15px 0;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with title and navigation -->
+    <header>
+        <h1>Semantic HTML5 Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main content area -->
+    <main>
+        <article>
+            <h2>Welcome to Our Semantic HTML5 Website</h2>
+            <section>
+                <h3>About Semantic HTML</h3>
+                <p>Semantic HTML introduces meaning to the web page rather than just presentation. For example, a &lt;p&gt; tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.</p>
+                <p>On the flip side of this equation, tags like &lt;b&gt; and &lt;i&gt; are not semantic. They define only how the text should look (bold or italic), and don't provide any additional meaning to the markup.</p>
+            </section>
+            
+            <section>
+                <h3>Benefits of Semantic HTML</h3>
+                <p>Using semantic HTML helps search engines and other user devices determine the importance and context of web pages. The semantic elements clearly describe its meaning to both the browser and the developer.</p>
+                <p>Additionally, semantic HTML is much easier to read and helps with:</p>
+                <ul>
+                    <li>SEO (Search Engine Optimization)</li>
+                    <li>Accessibility</li>
+                    <li>Maintainability</li>
+                    <li>Developer experience</li>
+                </ul>
+            </section>
+        </article>
+        
+        <aside>
+            <h3>Did You Know?</h3>
+            <p>HTML5 introduced many semantic elements like &lt;header&gt;, &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;, &lt;nav&gt;, &lt;aside&gt; and many more to help structure the document in a more meaningful way.</p>
+        </aside>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2023 Semantic HTML5 Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
